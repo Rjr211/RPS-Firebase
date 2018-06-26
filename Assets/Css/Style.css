@@ -1,0 +1,48 @@
+img{
+   position: center;
+   width: 400px;
+   height: 200px;
+}
+
+nav{
+
+    border-bottom: double;
+}
+
+h1, h2, .playerOneName, .playerTwoName{
+   
+    font-family: 'Monofett', cursive;
+    color: black;
+}
+
+p, h3{
+    color: black;
+}
+
+#resultsPanel{
+background-color: white;
+border: 1px solid gold;
+}
+
+#button{
+    border-style: double;
+    border: 1px solid black;
+}
+
+#button:hover {
+    background-color: black;
+    color: gold;
+}
+
+body{
+    background: linear-gradient(351deg, #ffffff, #7b8db7, #252b3c, #b3b7c1);
+    background-size: 800% 800%;
+    
+    animation: AnimationName 33s ease infinite;
+    
+}
+@keyframes AnimationName { 
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
