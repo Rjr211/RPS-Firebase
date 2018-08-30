@@ -227,7 +227,7 @@ $(function() {
         return e => {
             let leTarget = $(e.target);
             let pChoice = leTarget.attr('data-userChoice');    // Get player choice attr from the clicked button
-            leTarget.closest('div.card').find('img').attr('src', `./assets/imgs/${pChoice}.png`); // Change the img to match the user's choice
+            //leTarget.closest('div.card').find('img').attr('src', `./assets/imgs/${pChoice}.jpg`); // Change the img to match the user's choice
             if (pturn == 'p1turn'){
                 p1Choice = pChoice; // store the the data-userChoice attr value in a variable
                 p1Ref.update({ choice: p1Choice }); //Update the database with the user choice
